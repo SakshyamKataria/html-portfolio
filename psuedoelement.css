@@ -1,0 +1,15 @@
+h1::first-letter{
+    font-size:2em;
+}
+p::first-line{
+    color:darkgrey;
+}
+#vegetables li::before{
+    content:"random ";
+}
+#vegetables li::marker{
+    content:"🤦‍♂️";
+}
+#pot::after{
+    content:"🥔";
+}

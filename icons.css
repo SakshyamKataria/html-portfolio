@@ -1,0 +1,19 @@
+.icon{
+    text-align: center;
+}
+.icon a{
+    margin-right: 30px;
+    text-decoration: none;
+}
+.fa-brands.fa-square-x-twitter.fa-5x{
+    color:black;
+}
+.fa-brands.fa-square-x-twitter.fa-5x:hover{
+    color:rgb(63, 62, 62);
+}
+.fa-solid.fa-house.fa-5x{
+    color:rgb(115, 114, 114);
+}
+.fa-solid.fa-house.fa-5x:hover{
+    color:rgb(176, 176, 176);
+}

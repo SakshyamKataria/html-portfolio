@@ -1,0 +1,33 @@
+.clothes{
+    display:inline-block;
+}
+.clothes button{
+    background-color: rgb(150, 146, 141);
+    color:black;
+    border:none;
+    padding:8px 8px;
+    
+    cursor:pointer;
+}
+.content a{
+    display:block;
+    color:black;
+    text-decoration: none;
+    background-color: rgb(201, 202, 203);
+    padding:5px 5px;
+}
+.clothes .content{
+    position:absolute;
+    min-width:80px;
+    box-shadow:2px 2px 2px hsl(0, 2%, 77%);
+    display:none;
+}
+.clothes:hover .content{
+    display:block;
+}
+.clothes:hover button{
+    background-color: rgb(169, 173, 176);
+}
+.content a:hover{
+    background-color: rgb(68, 72, 76);
+}

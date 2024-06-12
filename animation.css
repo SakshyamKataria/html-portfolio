@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+
+.box{
+    height:250px;
+    width:250px;
+    background-color: blue;
+    text-align: center;
+    font-size: 12em;
+    
+}
+.box:hover{
+    animation-name:glow;
+    animation-duration: 1s;
+    animation-iteration-count: 4;
+}
+
+@keyframes toleft{
+    from{
+        transform:translate(100px,100px);
+    }
+}
+
+@keyframes toright{
+    to{
+        transform:translate(100px,100px);
+    }
+}
+
+@keyframes torotate{
+    from{
+        transform:rotatez(100deg);
+    }
+}
+
+@keyframes toskew{
+    50%{
+        transform:skewY(100deg);
+    }
+}
+
+@keyframes fade{
+    50%{
+        opacity:0;
+    }
+}
+
+@keyframes colorchange{
+    0%{
+        background-color: blue;
+    }
+    20%{
+        background-color: cyan;
+    }
+    60%{
+        background-color: green;
+    }
+    100%{
+        background-color: greenyellow;
+    }
+}
+
+@keyframes glow{
+    50%{
+        box-shadow: 0px 0px 50px hsl(10, 80%, 37%);
+    }
+}

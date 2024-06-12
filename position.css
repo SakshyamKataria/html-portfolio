@@ -1,0 +1,16 @@
+#box1{
+    border:2px solid hsl(20,50%,50%);
+    position:relative;
+    top:100px;
+    left:100px;
+    overflow:auto;
+    height:400px;
+    width:400px;
+}
+#box2{
+    border:2px solid hsl(197, 69%, 58%);
+    position:absolute;
+    overflow:auto;
+    height:200px;
+    width:200px;
+}

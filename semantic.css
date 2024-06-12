@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+.header{
+    text-align:center;
+    background-color: antiquewhite;
+    padding:10px;
+    
+}
+.navbar{
+    background-color: rgb(236, 179, 104);
+    text-align: center;
+    height: 50px;
+}
+.aside{
+    width:20%;
+    float:left;
+    padding:2px;
+    
+}
+.section{
+    width:40%;
+    float:left;
+    padding:10px;
+
+}
+.article{
+    width:40%;
+    float:left;
+    padding:10px;
+
+}
+footer{
+    display:block;
+    clear:both;
+    text-align: center;
+    background-color: rgb(189, 119, 26);
+}
+@media screen and (max-width:600px){
+    .aside, .section, .article{
+        width:100%;
+    }
+}
